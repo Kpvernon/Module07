@@ -163,6 +163,9 @@ footer{
     justify-content: flex-end;
     gap:24px;
 }
+.side-menu{
+        display: none !important;
+    }
 
 @media only screen and (max-width: 1024px) {
     .navbar img{
@@ -368,10 +371,5 @@ footer{
         .side-menu:checked ~ nav .menu {
         display: block !important;
         }
-    }
-}
-@media only screen and (min-wdith: 768px) {
-    .side-menu{
-        display: none !important;
     }
 }
