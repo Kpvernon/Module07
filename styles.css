@@ -370,3 +370,8 @@ footer{
         }
     }
 }
+@media only screen and (max-wdith: 768px) {
+    .side-menu{
+        display: none;
+    }
+}
